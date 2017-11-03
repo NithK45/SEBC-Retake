@@ -2,12 +2,16 @@ The command and output for hdfs dfs -ls /user
 
 ```
 [root@ip-172-31-38-243 ~]# hdfs dfs -ls /user
-Found 5 items
-drwxrwxrwx   - mapred hadoop          0 2017-11-03 08:19 /user/history
-drwxrwxr-t   - hive   hive            0 2017-11-03 08:21 /user/hive
-drwxrwxr-x   - hue    hue             0 2017-11-03 08:21 /user/hue
-drwxrwxr-x   - oozie  oozie           0 2017-11-03 08:22 /user/oozie
-drwxr-x--x   - spark  spark           0 2017-11-03 08:20 /user/spark
+Found 9 items
+drwxr-xr-x   - frankola paloalto              0 2017-11-03 08:42 /user/frankola
+drwxr-xr-x   - hdfs     supergroup            0 2017-11-03 08:28 /user/hdfs
+drwxrwxrwx   - mapred   hadoop                0 2017-11-03 08:19 /user/history
+drwxrwxr-t   - hive     hive                  0 2017-11-03 08:21 /user/hive
+drwxrwxr-x   - hue      hue                   0 2017-11-03 08:21 /user/hue
+drwxr-xr-x   - hueuser1 hueuser1              0 2017-11-03 08:33 /user/hueuser1
+drwxrwxr-x   - oozie    oozie                 0 2017-11-03 08:22 /user/oozie
+drwxr-xr-x   - reilly   sanfrancisco          0 2017-11-03 08:42 /user/reilly
+drwxr-x--x   - spark    spark                 0 2017-11-03 08:20 /user/spark
 [root@ip-172-31-38-243 ~]#
 ```
 The command and output from the CM API call ../api/v5/hosts
